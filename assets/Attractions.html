@@ -1,0 +1,91 @@
+
+<!-- saved from url=(0051)http://127.0.0.1:5500/Globetrotter/attractions.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Attractions</title>
+        
+    <link rel="stylesheet" href="./Attractions_files/styles.css"></head>
+    <body>
+        <header>
+            
+        </header>
+        <section id="landing">
+            
+            <section class="intro-div">
+                <section class="intro-text">
+                    <section class="cover">
+                        </section>
+                        <h1>WELCOME TO MEXICO</h1>
+                </section>
+            </section>
+
+            <nav class="attractions-nav">
+                <ul>
+                    <li> <a href="http://127.0.0.1:5500/Globetrotter/index.html">HOME</a></li>
+                    <li> <a href="http://127.0.0.1:5500/Globetrotter/attractions.html">TOP ATTRACTIONS</a></li>
+                    <li> <a href="http://127.0.0.1:5500/Globetrotter/guide.html">FOOD GUIDE</a></li>
+                    
+                    <li> <a href="http://127.0.0.1:5500/Globetrotter/guide.html">PHOTO GALLERY</a></li>
+                </ul>
+            </nav>
+
+            <section class="main-intro">
+                <h1>TOP ATTRACTIONS</h1>
+                <section class="places-div">
+                    <section class="place">
+                        <img src="./Attractions_files/chicha_itza.webp" alt="Chichen Itza">
+                        <h3>Chichen Itza</h3>
+                        <p>Chichen Itza is one of the most famous archaeological sites in Mexico, known for its impressive Mayan ruins, including the iconic El Castillo pyramid. This UNESCO World Heritage site offers a glimpse into the ancient Mayan civilization and its architectural prowess.</p>
+                    </section>
+                    <section class="place">
+                        <img src="./Attractions_files/Tourists-Pyramid-of-the-Sun-Mexico-Teotihuacan.webp" alt="Teotihuacan">
+                        <h3>Teotihuacan</h3>
+                        <p>Teotihuacan, located near Mexico City, is an ancient Mesoamerican city known for its massive pyramids, including the Pyramid of the Sun and the Pyramid of the Moon. It was one of the largest cities in the pre-Columbian Americas and remains a significant archaeological site.</p>
+                    </section>
+                    <section class="place">
+                        <img src="./Attractions_files/unnamed.webp" alt="Palace of Fine Arts">
+                        <h3>Palace of Fine Arts</h3>
+                        <p>The Palace of Fine Arts (Palacio de Bellas Artes) in Mexico City is a stunning cultural landmark known for its striking architecture and vibrant performances. It hosts opera, ballet, and art exhibitions, making it a hub for Mexican culture and arts.</p>
+                    </section>
+                </section>
+            </section>
+        </section>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
