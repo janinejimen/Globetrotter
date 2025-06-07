@@ -16,6 +16,7 @@ nav {
     height: 60px;
     text-decoration: none;
     color: white;
+    font-size: 25px;
 }
 
 nav a {
@@ -255,12 +256,11 @@ li {
         flex-direction: column;
     }
 
-
-
 }
 
 .main-design {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     font-size: 30px;
     align-items: center;
